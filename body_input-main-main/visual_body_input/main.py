@@ -54,7 +54,7 @@ def get_video():
             frame = track_human(frame)
 
             # Show results
-            cv2.imshow('RealSense RGB and Pose', frame)
+            cv2.imshow('RealSense', frame)
 
             # Press the 'q' key to exit the loop
             if cv2.waitKey(1) & 0xFF == ord('q'):
