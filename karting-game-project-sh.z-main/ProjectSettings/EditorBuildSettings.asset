@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Karting/Scenes/IntroMenu.unity
+    guid: d29260d8d84c94bd7ac95807b3da99d4
+  - enabled: 1
+    path: Assets/Karting/Scenes/SoloMenu.unity
+    guid: fb540397a3b5ec74a8294908760b8379
+  - enabled: 1
+    path: Assets/Karting/Scenes/DuoLobby.unity
+    guid: aade9b6ac24ebcc4d8bd8a91c6f40d11
+  - enabled: 1
+    path: Assets/Karting/Scenes/DuoScene.unity
+    guid: 382729f2f39fa25418a9e4238e7f2cbb
+  - enabled: 1
+    path: Assets/Karting/Scenes/MainScene.unity
+    guid: 92786e23da2af4a4f8803aaf44c47121
+  - enabled: 1
+    path: Assets/Karting/Scenes/Collector Scene.unity
+    guid: 4fede1654dff6904b8c3bd05a720f7d9
+  - enabled: 1
+    path: Assets/Karting/Scenes/WinScene.unity
+    guid: d6801f2e59f75ee4b919cf5da4e48e3b
+  - enabled: 1
+    path: Assets/Karting/Scenes/LoseScene.unity
+    guid: 9c449e01147824b419cda406398fb2e7
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 747f21af25044104b9b53f3160d354c7,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: f8d834469fba3a84f8cc20804a7c3cbd,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a8093a16a944d8043b11ac673d2e33d0,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 95c851f9dc3b8d54ea21d830784a0c58,
+      type: 2}

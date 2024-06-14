@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3100753481062545053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3100753481062545043}
+  - component: {fileID: 3100753481062545042}
+  m_Layer: 0
+  m_Name: GO_IndoorBike
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3100753481062545043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3100753481062545053}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 138.52304, y: 0.980001, z: 1.1801519}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3100753481062545042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3100753481062545053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c66b56fcdd12947ad27ef4ae8cab2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  read_characteristic: 
+  want_connect: 1
+  selectedDeviceId: 
+  isSubscribed: 0
+  output: 
+  speed: 0
+  has_speed: 0
+  average_speed: 0
+  has_average_speed: 0
+  rpm: 0
+  has_rpm: 0
+  average_rpm: 0
+  has_average_rpm: 0
+  distance: 0
+  has_distance: 0
+  resistance: 0
+  has_resistance: 0
+  power: 0
+  has_power: 0
+  average_power: 0
+  has_average_power: 0
+  expended_energy: 0
+  has_expended_energy: 0
+  is_left_clicked: 0
+  left_button_id: 32
+  is_right_clicked: 0
+  right_button_id: 2048
