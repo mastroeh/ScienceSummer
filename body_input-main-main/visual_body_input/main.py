@@ -15,7 +15,7 @@ mp_drawing = None
 #shoulder_angle = False
 distance_to_center = False
 shoulder_angle = True
-
+gradient_threshold = 0.05
 # Create a socket object
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -106,14 +106,17 @@ def get_distance_to_center(x, width):
 
 def get_shoulder_angle(x1, y1, x2, y2):
     try:
-        angle = int(((y2-y1)/(x2-x1))*4)
+        angle = ((y2-y1)/(x2-x1))
         print(angle)
     except ZeroDivisionError as zerodiv_error:
         print(f"{zerodiv_error}")
         angle = 0
     # TODO: transmit value to Unity and process it there to steer
     #print("Attempting to send data...")
-    send_data_to_unity(angle)
+    if abs(angle)>=gradient_threshold:
+        send_data_to_unity(angle)
+    else:
+        send_data_to_unity(0)
 
 def send_data_to_unity(data):
     try:
